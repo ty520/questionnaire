@@ -1,0 +1,55 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+#rectangle{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+input[type="button"]{
+    margin: 0px 10px 0px 50px;
+    border-radius: 5px;
+}
+textarea{
+    float: left;
+    margin: 0px 0px 0px 0px;
+    background: black;
+    color: green;
+    line-height: 18px;
+    font-size: 16px;
+    height: 150px;
+    width: 200px;
+    padding: 0px;
+    border: 0px;
+}
+#rowNum {
+    float: left;
+    width: 20px;
+    height: 150px;
+    background: #b2b2b2;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#rowNum p{
+    margin: 0px;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    width: 18px;
+    border-radius:9px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    /*background-color: red;*/
+    text-align: center;
+}
+#input{
+    margin: 10px 0px 0px 30px;
+}
+#notice{
+    display: inline-block;
+    margin-left: 10px;
+    color: red;
+
+}
