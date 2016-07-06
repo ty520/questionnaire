@@ -1,0 +1,36 @@
+@charset "utf-8";
+//less库
+@import "../less/z";
+//css3库
+@import "../less/css3";
+//公用的变量
+@import "style";
+@import "newpage";
+@import "edit";
+@import "modal";
+@import "list";
+.reset();
+
+body {
+    .font-fm();
+    .font-s14();
+    background-color:@main_bgc; 
+}
+.navbar{
+	background-color: @body_bgc;
+	&-brand{
+		.font-s20();
+		font-weight: bold;
+	    color:@con_bgc;
+	
+	    img{
+	    	display: inline-block;
+	    }
+	}
+}
+.nav>li>a{
+	color: @con_bgc;
+	&:focus,&:hover{
+		background-color: #ee4400;
+	}
+}

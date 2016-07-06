@@ -1,0 +1,23 @@
+// @charset "utf-8";
+// @import "../less/z";
+// @import "../less/css3";
+// @import "style";
+.page-1{
+	.col-md-8{
+		.col(362px);
+	}
+	.btn{
+		background-color:@body_bgc;
+		color:@con_bgc;
+		.font-s20();
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    -webkit-transform: translate(-50%, -50%);
+	    		transform: translate(-50%, -50%);
+
+	    &:focus,&:hover{
+	    	color: @con_bgc;
+	    }
+	}
+}
